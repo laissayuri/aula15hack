@@ -16,13 +16,13 @@ aside{
     align-items: center;
     position: relative;
     transform: translateX(-310px);
-    transition: 0.3s;
+    transition: 0.7s;
 }
 
 aside.mostrando {
     transform: translateX(0);
     background-color: lightpink;
-    transition: 0.3s;
+    transition: 0.7s;
 }
 
 aside nav{
@@ -57,4 +57,22 @@ aside nav a {
     width: 50px;
     background-color: rgb(253, 91, 115);
     border-radius: 60px;
+    transition: 0.7s;
+}
+
+.barrinha.mostrando{
+    position: absolute;
+    transition: 0.7s;
+}
+
+.barrinha.mostrando:nth-child(1){
+    transform: rotate(45deg);
+}
+
+.barrinha.mostrando:nth-child(2){
+    display: none;
+}
+
+.barrinha.mostrando:nth-child(3){
+    transform: rotate(-45deg);
 }
