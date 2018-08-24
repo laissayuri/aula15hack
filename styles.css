@@ -14,7 +14,6 @@ aside{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: lightpink;
     position: relative;
     transform: translateX(-310px);
     transition: 0.3s;
@@ -22,6 +21,7 @@ aside{
 
 aside.mostrando {
     transform: translateX(0);
+    background-color: lightpink;
     transition: 0.3s;
 }
 
@@ -55,6 +55,6 @@ aside nav a {
 .barrinha{
     height: 12px;
     width: 50px;
-    background-color: white;
+    background-color: rgb(253, 91, 115);
     border-radius: 60px;
 }
