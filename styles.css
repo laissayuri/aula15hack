@@ -3,6 +3,10 @@
     font-family: sans-serif;
 }
 
+.invisivel {
+    visibility: hidden;
+}
+
 aside{
     height: 100vh;
     width: 400px;
@@ -15,8 +19,8 @@ aside{
     transform: translateX(-310px)
 }
 
-aside h2, aside nav {
-    visibility: hidden;
+aside.mostrando {
+    transform: translateX(0);
 }
 
 aside nav{
@@ -43,6 +47,7 @@ aside nav a {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    cursor: pointer;
 }
 
 .barrinha{
