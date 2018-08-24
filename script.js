@@ -1,6 +1,3 @@
-let botao = document.querySelector("#hamburguer");
-let lateral = document.querySelector("aside");
-
 // --------------- MANEIRA INEFICIENTE DE FAZER O MENU DESAPARECER E REAPARECER ----------------
 // let menuAberto = false;
 // botao.onclick = function(){
@@ -31,6 +28,9 @@ let lateral = document.querySelector("aside");
 // else {
 //     e.classList.add("class");
 // }
+
+let botao = document.querySelector("#hamburguer");
+let lateral = document.querySelector("aside");
 
 botao.onclick = function(){
     lateral.classList.toggle("mostrando");
