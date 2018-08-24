@@ -94,6 +94,10 @@ aside nav a {
 /* barra de rolagem */
 
 ::-webkit-scrollbar{
+    width: 0px;
+}
+
+/* ::-webkit-scrollbar{
     width: 10px;
     background-color: lightpink;
 }
@@ -105,4 +109,4 @@ aside nav a {
 
 ::-webkit-scrollbar-thumb:hover {
     background:rgb(199, 55, 76);
-}
+} */
